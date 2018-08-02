@@ -1,0 +1,72 @@
+
+/*Lucida Sans	100.0%*/
+/*Verdana	99.85%*/
+
+
+body{
+    /*color: #222222;*/
+    padding: 20px;
+    font-family: Belgrano;
+    background: #fff5e1;
+}
+
+pre{
+    border: rgba(137, 137, 137, 0.62) solid 1px;
+}
+
+
+.blog {
+    text-align: center;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr  1fr;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.active{
+    color: brown;
+    font-weight: bold;
+    border: 1px solid red;
+    padding: 0 8px;
+    border-radius: 20%;
+    text-decoration: none;
+
+}
+
+.pagination{
+    background: aquamarine;
+    width: 40%;
+    margin: 0 auto;
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+
+.links{
+    color: darkorchid;
+    text-decoration: none;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

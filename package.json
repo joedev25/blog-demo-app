@@ -1,0 +1,30 @@
+{
+  "name": "blog_demo_app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "code-prettify": "^0.1.0",
+    "contentful": "^6.1.2",
+    "highlight.js": "^9.12.0",
+    "markdown-to-jsx": "^6.7.0",
+    "marked": "^0.4.0",
+    "prismjs": "^1.15.0",
+    "prismjs-polyfill": "^0.3.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-highlight.js": "^1.0.7",
+    "react-markdown": "^3.4.1",
+    "react-markdown-plus": "^0.1.1-a",
+    "react-paginate": "^5.2.3",
+    "react-prism": "^4.3.2",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
