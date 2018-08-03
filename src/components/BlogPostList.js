@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
 import BlogItem from "./BlogItem";
 import ReactPaginate from "react-paginate";
 import * as contentful from "contentful";
-import prettify from 'code-prettify'
 import axios from 'axios'
 
 const limit = 2

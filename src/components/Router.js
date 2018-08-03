@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
 import {Route, Switch} from "react-router-dom";
 import BlogPost from "./BlogPost";
 import BlogPostList from "./BlogPostList";

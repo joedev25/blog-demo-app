@@ -21,9 +21,6 @@ class BlogPost extends Component {
     })
 
     setPosts = response => {
-        {
-            console.log(response.items[0].fields)
-        }
         this.setState({
             post: response.items[0].fields,
         })

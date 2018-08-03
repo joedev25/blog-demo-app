@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import Router from "./components/Router";
-import Highlight from 'highlight.js'
 
-const limit = 2
 
 class App extends Component {
     render() {
