@@ -9,10 +9,14 @@ class BlogPost extends Component {
         post: ""
     }
 
+    constructor(props){
+        super(props)
+        this.runCodePrettify()
+    }
 
     componentDidMount(){
-        this.runCodePrettify()
         this.fetchPosts().then(this.setPosts).catch(console.error)
+        this.runCodePrettify()
     }
 
     fetchPosts = () => client.getEntries({
@@ -27,6 +31,7 @@ class BlogPost extends Component {
     }
 
     runCodePrettify() {
+        console.log("NOT RUNNING ON TIME")
         let script = document.createElement('script');
         script.type = 'text/javascript';
         script.async = true;
