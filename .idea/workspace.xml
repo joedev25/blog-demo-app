@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9e758c9-ae8e-4e99-b6c7-486fd465de37" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BlogPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BlogPost.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,7 +18,7 @@
     <session id="560297884">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
@@ -34,6 +31,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="4" />
+          <entry key="htaccess" value="1" />
           <entry key="html" value="4" />
           <entry key="id_rsa" value="1" />
           <entry key="js" value="26" />
@@ -50,7 +48,7 @@
           <entry key="JSON" value="4" />
           <entry key="JavaScript" value="26" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="TypeScript" value="1" />
         </counts>
       </usages-collector>
@@ -58,7 +56,7 @@
         <counts>
           <entry key="css" value="689" />
           <entry key="html" value="60" />
-          <entry key="js" value="4196" />
+          <entry key="js" value="4209" />
           <entry key="md" value="39" />
         </counts>
       </usages-collector>
@@ -66,7 +64,7 @@
         <counts>
           <entry key="CSS" value="689" />
           <entry key="HTML" value="68" />
-          <entry key="JavaScript" value="4188" />
+          <entry key="JavaScript" value="4201" />
           <entry key="Markdown" value="39" />
         </counts>
       </usages-collector>
@@ -93,16 +91,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            <state relative-caret-position="157">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.htaccess">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -196,17 +199,6 @@
               <item name="blog_demo_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog_demo_app" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="blog_demo_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog_demo_app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog_demo_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog_demo_app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -253,16 +245,15 @@
       <workItem from="1533228701862" duration="223000" />
       <workItem from="1533229871717" duration="434000" />
       <workItem from="1533279776384" duration="2291000" />
-      <workItem from="1533366890244" duration="1650000" />
+      <workItem from="1533366890244" duration="2267000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42733000" />
+    <option name="totallyTimeSpent" value="43350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="778" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -444,13 +435,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        <state relative-caret-position="157">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
